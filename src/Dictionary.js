@@ -10,6 +10,13 @@ export default function Dictionary(){
         alert (`Searching for "${keyword}"`);
     }
 
+    function searchWord(response){
+        console.log(response);
+    }
+
+    let apiUrl=`https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`
+    axios.get(apiUrl).then(searchWord);
+
     function handleWordSubmit(event){
         console.log(event.target.value);
         setKeyword(event.target.value);

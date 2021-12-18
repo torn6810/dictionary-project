@@ -1,3 +1,6 @@
+h2{
+    text-transform: capitalize;
+}
 .Results{
     color: green;
     margin: 10px;

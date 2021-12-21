@@ -9,7 +9,7 @@ function App() {
        Dictionary App
       </header>
       <main>
-        <Dictionary/>
+        <Dictionary defaultKeyword="rain"/>
       </main>
       <footer className="App-footer">
         <a href="https://github.com/torn6810/dictionary-project"> Open Source Code{" "}</a> 

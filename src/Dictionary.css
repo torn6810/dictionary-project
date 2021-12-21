@@ -1,0 +1,21 @@
+input{
+    border-radius: 4px;
+}
+.Dictionary section{
+    background-color: #f7f7fc;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px rgb(160, 128, 168);
+    padding: 30px;
+    margin: 20px 0;
+}
+.Search-button{
+    background-color: white;
+    color: rgb(44, 3, 54);
+    margin: 20px;
+    
+}
+.Search-button:hover{
+    background-color: rgb(160, 128, 168);
+    color: rgb(44, 3, 54);
+    cursor: pointer;
+}

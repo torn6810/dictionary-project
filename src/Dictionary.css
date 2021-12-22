@@ -1,12 +1,17 @@
-input{
+
+.Dictionary input{
     border: 2px solid rgb(160, 128, 168);
     border-radius: 4px;
+    width: 30%;
+}
+.Dictionary form{
+    text-align: center;
 }
 .Dictionary section{
     background-color: #f7f7fc;
     border-radius: 10px;
     box-shadow: 0px 5px 5px rgb(160, 128, 168);
-    padding: 30px;
+    padding: 20px;
     margin: 20px 0;
 }
 .Search-button{
@@ -14,11 +19,14 @@ input{
     color: rgb(44, 3, 54);
     margin: 20px;
     border: 2px solid rgb(160, 128, 168);
-    
+    max-width: 10%;
 }
 .Search-button:hover{
     background-color: rgb(228, 238, 250);
     color: navy;
     cursor: pointer;
     transition: all 150ms ease-in-out;
+}
+.Search-for-a-word {
+    color: rgb(160, 128, 168);
 }

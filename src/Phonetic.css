@@ -1,3 +1,6 @@
+.Phonetic{
+    height: 40px;
+}
 .Phonetic a{
     border: 1px solid rgb(160, 128, 168);
     border-radius: 20px;

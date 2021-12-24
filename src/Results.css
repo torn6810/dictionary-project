@@ -1,7 +1,10 @@
-.Results h2{
-    text-transform: capitalize;
-}
+
 .Results{
     color: navy;
     margin: 10px;
+}
+.Results .keywordName{
+    text-transform: capitalize;
+    font-size: 28px;
+    font-weight:bold;
 }

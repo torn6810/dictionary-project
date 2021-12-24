@@ -9,3 +9,7 @@
 .Meaning .example:first-letter{
     text-transform: capitalize;
 }
+.Meaning .part-of-speech{
+    font-size: 22px;
+    font-weight: bold;
+}
